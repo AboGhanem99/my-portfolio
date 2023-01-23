@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+      <section class="hero">
+          <nav>
+              <div class="logo"><h1 >Abo</h1></div>
+              <ul id="nav-list">
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact-me">Contact</a></li>
+              </ul>
+              <button class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+              </button>
+          </nav>
+          <div class="hero-area">
+            <div class="hero-text">
+                <h1>AboGhanem Awsan</h1>
+                <p>Full Stack Developer</p>
+                <div class="button"><a href="#about-me">About me</a></div>
+            </div>
+
+            <div class="socials">
+                <a href="" target="_blank">
+                    <img class = "Twitter" alt="Twitter" src="src/images/Twitter Icon.png" >
+                </a>
+                <a href="" target="_blank">
+                    <img class= "Facebook" alt="Facebook" src="src/images/Facebook Icon.png" >
+                </a>
+                <a href="" target="_blank">
+                    <img class = "Instagram" alt="Instagram" src="src/images/Instagram Icon.png" >
+                </a>
+                <a href="" target="_blank">
+                    <img class = "Linkedin" alt="Linkedin" src="src/images/Linkedin Icon.png" >
+                </a>
+                <a href="https://github.com/AboGhanem99" target="_blank">
+                    <img class= "GitHub" alt="GitHub" src="src/images/GitHub Icon.png" >
+                </a>
+            </div>
+          </div>
+      </section>
+      <section class="sub-section" id="about-me">
+          <div class="information">
+              <h2>About Me</h2>
+              <p>Hello. My name is AboGAhnem Awsan. I am a Software Developer</p>
+              <p id="mySkills-title">My Skills</p>
+              <div id="mySkills">
+                <img class="skillLogo" src="src/images/js.png"/>
+                <img class="skillLogo" src="src/images/html.png"/>
+                <img class="skillLogo" src="src/images/css.png"/>
+                <img class="skillLogo" src="src/images/react.png"/>
+                <img class="skillLogo" src="src/images/nodejs.png"/>
+                <img class="skillLogo" src="src/images/Expressjs.png"/>
+                <img class="skillLogo" src="src/images/mongoDB.png"/>
+                <img class="skillLogo" src="src/images/python.png"/>
+                <img class="skillLogo" src="src/images/c.png"/>
+                <img class="skillLogo" src="src/images/c++.png"/>
+              </div>
+          </div>
+          <div class="headshot-container">
+              <img class="headshot" src="src/images/profilePic.jpg" alt="my headshot"/>
+              
+          </div>
+
+      </section>
+      <section class="sub-section-alternative" id="projects">
+          <h2>My Projects</h2>
+          <div class="project-container">
+
+            <div class="project-card">
+                <img class="project-image"  src="src/images/Calculator img.png" alt="Project Image"/>
+                <h3>Calculator</h3>
+                <p class="subtext">A simple Calculator built using react</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://abos-calculator.netlify.app/" target="_blank">View here</a></p>
+            </div>
+
+            <div class="project-card">
+                <img class="project-image" src="src/images/sortingvisualizer.png" alt="Project Image"/>
+                <h3>Sorting Visualizer</h3>
+                <p class="subtext">sorting visualizer for the 5 most popular sort algorithms. Built using react.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://abos-sortingvisualizer.netlify.app/" target="_blank">View here</a></p>
+            </div>
+
+            <div class="project-card">
+                <img class="project-image"  src="src/images/2048.png" alt="Project Image"/>
+                <h3>2048</h3>
+                <p class="subtext">The popular game 2048 built using vanilla js</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://abo-2048.netlify.app/" target="_blank">View here</a></p>
+            </div>
+
+            <div class="project-card">
+                <img class="project-image"  src="src/images/watchlist.png" alt="Project Image"/>
+                <h3>Watchlist</h3>
+                <p class="subtext">A full stack app. The forntend built using react and the backedn built using node js with mongoDB for the data</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://abos-watchlist.netlify.app/" target="_blank">View here</a></p>
+            </div>
+
+          </div>
+      </section>
+      <footer id="contact-me">
+          <h2>Contact me</h2>
+          <p>abo_ghanem.awsanps@yahoo.com</p>
+      </footer>
+    <script src="src/app.js"></script>
+  </body>
+</html>
